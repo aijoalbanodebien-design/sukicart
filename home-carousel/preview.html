@@ -1,0 +1,114 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dish Carousel Preview</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..800&display=swap" rel="stylesheet">
+<style>body{margin:0;background:#fff;font-family:Inter,sans-serif}/* Paste into Custom Design 146 > Custom CSS.
+   Zepio prefixes every selector with "#<element-id> ", so all selectors are relative. */
+#custom_design_146 .sk-car { margin: 0 16px 24px; font-family: inherit; }
+#custom_design_146 .sk-car .sk-chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding: 0 0 12px; }
+#custom_design_146 .sk-car .sk-chips::-webkit-scrollbar { display: none; }
+#custom_design_146 .sk-car .sk-chip { flex: 0 0 auto; padding: 8px 14px; border-radius: 999px; background: #E3F1EE; color: #1D794C; font-size: 13px; font-weight: 600; text-decoration: none; white-space: nowrap; }
+#custom_design_146 .sk-car .sk-track { display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+#custom_design_146 .sk-car .sk-track::-webkit-scrollbar { display: none; }
+#custom_design_146 .sk-car .sk-slide { flex: 0 0 100%; scroll-snap-align: start; scroll-margin-top: 120px; }
+#custom_design_146 .sk-car .sk-head { display: flex; justify-content: space-between; align-items: baseline; margin: 0 0 10px; }
+#custom_design_146 .sk-car .sk-title { margin: 0; font-size: 20px; font-weight: 800; color: #1B1B1B; }
+#custom_design_146 .sk-car .sk-all { font-size: 13px; font-weight: 700; color: #1D794C; text-decoration: none; }
+#custom_design_146 .sk-car .sk-hero { display: block; width: 100%; border-radius: 16px; margin: 0 0 8px; }
+#custom_design_146 .sk-car .sk-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto; gap: 8px; }
+#custom_design_146 .sk-car .sk-tile { display: block; border-radius: 16px; overflow: hidden; }
+#custom_design_146 .sk-car .sk-tile img { display: block; width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1 / 1; }
+#custom_design_146 .sk-car .sk-tile.sk-tall { grid-row: span 2; }
+#custom_design_146 .sk-car .sk-tile.sk-tall img { aspect-ratio: auto; }
+#custom_design_146 .sk-car .sk-dots { display: flex; justify-content: center; gap: 6px; margin: 12px 0 0; }
+#custom_design_146 .sk-car .sk-dot { width: 8px; height: 8px; border-radius: 50%; background: #CFE3DA; }
+#custom_design_146 .sk-car .sk-dot:hover, #custom_design_146 .sk-car .sk-dot:focus { background: #1D794C; }
+</style></head>
+<body><div id="custom_design_146"><div class="sk-car">
+  <nav class="sk-chips">
+    <a class="sk-chip" href="#sk-cooking">What&#x27;s cooking</a>
+    <a class="sk-chip" href="#sk-soups">Warm soups</a>
+    <a class="sk-chip" href="#sk-saucy">Saucy</a>
+    <a class="sk-chip" href="#sk-crispy">Crispy</a>
+    <a class="sk-chip" href="#sk-coconut">Coconut</a>
+  </nav>
+  <div class="sk-track">
+    <section class="sk-slide" id="sk-cooking">
+      <div class="sk-head">
+        <h2 class="sk-title">What&#x27;s cooking</h2>
+        <a class="sk-all" href="/collections">See all</a>
+      </div>
+      <img class="sk-hero" src="https://cdn.zepio.io/sukicart/hero_categories_hero/ef5d8caa-83c9-49d5-9c07-f74f681b0f9a.webp" alt="What&#x27;s cooking" loading="lazy">
+      <div class="sk-grid">
+        <a class="sk-tile sk-tall" href="/collection/sinigang"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/05c066f2-10d9-4dbb-8f82-0ad720e5f807.webp" alt="Sinigang" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/adobo"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/af6e3e97-eb27-4928-9b04-ecd518e2dbb1.webp" alt="Adobo" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/tinolang-manok"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/3af85855-d050-4cba-9c08-171ca661f40e.webp" alt="Tinola" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/kare-kare"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/fe1f9185-883b-45b3-aa34-8f414498a02e.webp" alt="Kare-Kare" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/pinakbet"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/9a1cb8b2-e445-4a6b-9aa0-e9775ae88320.webp" alt="Pinakbet" loading="lazy"></a>
+      </div>
+    </section>
+    <section class="sk-slide" id="sk-soups">
+      <div class="sk-head">
+        <h2 class="sk-title">Warm soups</h2>
+        <a class="sk-all" href="/collections">See all</a>
+      </div>
+      <img class="sk-hero" src="https://cdn.zepio.io/sukicart/hero_categories_hero/cf5a010f-f533-4cd6-8257-9a0d0ef83b5a.webp" alt="Warm soups" loading="lazy">
+      <div class="sk-grid">
+        <a class="sk-tile sk-tall" href="/collection/bulalo"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/9992415c-9df2-4de7-be99-66d25cb2548c.webp" alt="Bulalo" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/nilaga"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/4dfdea49-6fb4-4a72-a673-c3fb1c67f8d4.webp" alt="Nilaga" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/sopas"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/80778e8d-0f1d-4de8-a79d-95c4816e8c93.webp" alt="Sopas" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/lomi"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/4e6d00da-22d3-45a9-aef4-c29a5ebbf6e8.webp" alt="Lomi" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/ginisang-munggo"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/b2d9e9ad-826a-411c-bc78-18e5bbf0e6e1.webp" alt="Munggo" loading="lazy"></a>
+      </div>
+    </section>
+    <section class="sk-slide" id="sk-saucy">
+      <div class="sk-head">
+        <h2 class="sk-title">Saucy</h2>
+        <a class="sk-all" href="/collections">See all</a>
+      </div>
+      <img class="sk-hero" src="https://cdn.zepio.io/sukicart/hero_categories_hero/73a14e2d-b1f7-44e0-884d-de520325af76.webp" alt="Saucy" loading="lazy">
+      <div class="sk-grid">
+        <a class="sk-tile sk-tall" href="/collection/caldereta"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/85d25fc8-d9f3-4828-b612-8c203d1a74cc.webp" alt="Caldereta" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/menudo"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/0aae7c43-2b38-4e17-bf90-d17d2d28a86e.webp" alt="Menudo" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/mechado"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/1d676e05-897a-4a99-9bd5-25c7f3e8f466.webp" alt="Mechado" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/afritada"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/18fb116f-6b61-41e2-9f73-740f06611311.webp" alt="Afritada" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/pork-steak"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/89aed382-cce9-42bd-b7d1-6be47226f141.webp" alt="Pork Steak" loading="lazy"></a>
+      </div>
+    </section>
+    <section class="sk-slide" id="sk-crispy">
+      <div class="sk-head">
+        <h2 class="sk-title">Crispy</h2>
+        <a class="sk-all" href="/collections">See all</a>
+      </div>
+      <img class="sk-hero" src="https://cdn.zepio.io/sukicart/hero_categories_hero/673c4694-0a71-46a6-a419-88f7f48f44c6.webp" alt="Crispy" loading="lazy">
+      <div class="sk-grid">
+        <a class="sk-tile sk-tall" href="/collection/lechon-kawali"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/7f2830e8-5253-41e4-8423-662bc157fd29.webp" alt="Lechon Kawali" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/crispy-pata"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/9aedacd3-4f64-48d0-bb14-455a94d0b974.webp" alt="Crispy Pata" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/fried-fish"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/7034f9c2-9469-425c-8f96-42220a00a341.webp" alt="Fried Fish" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/pork-sisig"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/f2c0e891-21c9-4feb-afdb-0d116555c293.webp" alt="Pork Sisig" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/lumpiang-shanghai"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/105cafc0-fda1-4f00-baad-fa9e8901ab9d.webp" alt="Lumpiang Shanghai" loading="lazy"></a>
+      </div>
+    </section>
+    <section class="sk-slide" id="sk-coconut">
+      <div class="sk-head">
+        <h2 class="sk-title">Coconut</h2>
+        <a class="sk-all" href="/collections">See all</a>
+      </div>
+      <img class="sk-hero" src="https://cdn.zepio.io/sukicart/hero_categories_hero/1e806817-fbac-4fa8-b931-6ad733d57974.webp" alt="Coconut" loading="lazy">
+      <div class="sk-grid">
+        <a class="sk-tile sk-tall" href="/collection/bicol-express"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/9871697c-769d-4269-8ab1-7035a1eaa27f.webp" alt="Bicol Express" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/laing"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/97415d08-010f-4605-811c-11bf0a80ab83.webp" alt="Laing" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/ginataang-kalabasa"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/06b4aefa-fb02-4244-aef9-3068c77b9602.webp" alt="Ginataang Kalabasa" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/chopsuey"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/95c3be81-2897-4996-b78e-b69672eb5334.webp" alt="Chopsuey" loading="lazy"></a>
+        <a class="sk-tile" href="/collection/tortang-talong"><img src="https://cdn.zepio.io/sukicart/hero_categories_item/a2ee3aeb-204b-4b22-8a6d-647e8b1a2d86.webp" alt="Tortang Talong" loading="lazy"></a>
+      </div>
+    </section>
+  </div>
+  <div class="sk-dots">
+    <a class="sk-dot" href="#sk-cooking" aria-label="What&#x27;s cooking"></a>
+    <a class="sk-dot" href="#sk-soups" aria-label="Warm soups"></a>
+    <a class="sk-dot" href="#sk-saucy" aria-label="Saucy"></a>
+    <a class="sk-dot" href="#sk-crispy" aria-label="Crispy"></a>
+    <a class="sk-dot" href="#sk-coconut" aria-label="Coconut"></a>
+  </div>
+</div>
+</div></body></html>
