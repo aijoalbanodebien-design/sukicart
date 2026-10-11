@@ -22,10 +22,6 @@ for s in slides:
 out += ['  </nav>', '  <div class="sk-track">']
 for s in slides:
     out += [f'    <section class="sk-slide" id="sk-{s["id"]}">',
-            '      <div class="sk-head">',
-            f'        <h2 class="sk-title">{html.escape(s["chip"])}</h2>',
-            '        <a class="sk-all" href="/collections">See all</a>',
-            '      </div>',
             f'      <img class="sk-hero" src="{src(s["hero"])}" alt="{html.escape(s["chip"])}" loading="lazy">',
             '      <div class="sk-grid">']
     for i, (key, name, slug) in enumerate(s["tiles"]):

@@ -7,9 +7,6 @@
 .sk-car .sk-track { display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
 .sk-car .sk-track::-webkit-scrollbar { display: none; }
 .sk-car .sk-slide { flex: 0 0 100%; scroll-snap-align: start; scroll-margin-top: 120px; }
-.sk-car .sk-head { display: flex; justify-content: space-between; align-items: baseline; margin: 0 0 10px; }
-.sk-car .sk-title { margin: 0; font-size: 20px; font-weight: 800; color: #1B1B1B; }
-.sk-car .sk-all { font-size: 13px; font-weight: 700; color: #1D794C; text-decoration: none; }
 .sk-car .sk-hero { display: block; width: 100%; border-radius: 16px; margin: 0 0 8px; }
 .sk-car .sk-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto; gap: 8px; }
 .sk-car .sk-tile { display: block; border-radius: 16px; overflow: hidden; }
