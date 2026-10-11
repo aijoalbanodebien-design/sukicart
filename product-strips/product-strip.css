@@ -1,0 +1,9 @@
+/* Paste into each Product Strip component's Custom CSS (Trending/For Bulalo/Essentials/Bestsellers).
+   Zepio prefixes every selector with "#<element-id> ", so all selectors are relative. */
+.inline-flex.gap-3 { gap: 10px; }
+div.group.w-\[140px\] { width: 118px; border: 1px solid #EEF0F2; border-radius: 14px; padding: 6px 6px 8px; background: #fff; }
+.qc-image-border { border: 0 !important; border-radius: 10px; background: #F7F8F9; }
+.qc-price { background: none !important; box-shadow: none !important; border: 0 !important; padding: 0 !important; font-weight: 800; font-size: 14px; color: #111827 !important; }
+h3.line-clamp-3 { font-size: 12px !important; line-height: 1.25 !important; -webkit-line-clamp: 2; }
+.add-to-cart button { width: 48px !important; min-width: 0 !important; height: 26px !important; border-radius: 8px !important; background: #fff !important; border: 1.5px solid #1D794C !important; box-shadow: none !important; color: #1D794C !important; font-weight: 800; font-size: 11px; }
+h2.text-lg { font-size: 20px; font-weight: 800; }
