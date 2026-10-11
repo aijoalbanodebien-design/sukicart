@@ -1,0 +1,12 @@
+[
+  {"id": "cooking", "chip": "What's cooking", "hero": "p2",
+   "tiles": [["p3","Sinigang","sinigang"],["p4","Adobo","adobo"],["p5","Tinola","tinolang-manok"],["p6","Kare-Kare","kare-kare"],["p7","Pinakbet","pinakbet"]]},
+  {"id": "soups", "chip": "Warm soups", "hero": "p11",
+   "tiles": [["p12","Bulalo","bulalo"],["p13","Nilaga","nilaga"],["p14","Sopas","sopas"],["p15","Lomi","lomi"],["p16","Munggo","ginisang-munggo"]]},
+  {"id": "saucy", "chip": "Saucy", "hero": "p17",
+   "tiles": [["p18","Caldereta","caldereta"],["p19","Menudo","menudo"],["p20","Mechado","mechado"],["p21","Afritada","afritada"],["p22","Pork Steak","pork-steak"]]},
+  {"id": "crispy", "chip": "Crispy", "hero": "p23",
+   "tiles": [["p24","Lechon Kawali","lechon-kawali"],["p25","Crispy Pata","crispy-pata"],["p26","Fried Fish","fried-fish"],["p27","Pork Sisig","pork-sisig"],["p28","Lumpiang Shanghai","lumpiang-shanghai"]]},
+  {"id": "coconut", "chip": "Coconut", "hero": "p29",
+   "tiles": [["p30","Bicol Express","bicol-express"],["p31","Laing","laing"],["p32","Ginataang Kalabasa","ginataang-kalabasa"],["p33","Chopsuey","chopsuey"],["p34","Tortang Talong","tortang-talong"]]}
+]

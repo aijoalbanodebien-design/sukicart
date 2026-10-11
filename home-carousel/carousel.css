@@ -1,0 +1,21 @@
+/* Paste into Custom Design 146 > Custom CSS.
+   Zepio prefixes every selector with "#<element-id> ", so all selectors are relative. */
+.sk-car { margin: 0 16px 24px; font-family: inherit; }
+.sk-car .sk-chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding: 0 0 12px; }
+.sk-car .sk-chips::-webkit-scrollbar { display: none; }
+.sk-car .sk-chip { flex: 0 0 auto; padding: 8px 14px; border-radius: 999px; background: #E3F1EE; color: #1D794C; font-size: 13px; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.sk-car .sk-track { display: flex; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+.sk-car .sk-track::-webkit-scrollbar { display: none; }
+.sk-car .sk-slide { flex: 0 0 100%; scroll-snap-align: start; scroll-margin-top: 120px; }
+.sk-car .sk-head { display: flex; justify-content: space-between; align-items: baseline; margin: 0 0 10px; }
+.sk-car .sk-title { margin: 0; font-size: 20px; font-weight: 800; color: #1B1B1B; }
+.sk-car .sk-all { font-size: 13px; font-weight: 700; color: #1D794C; text-decoration: none; }
+.sk-car .sk-hero { display: block; width: 100%; border-radius: 16px; margin: 0 0 8px; }
+.sk-car .sk-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto; gap: 8px; }
+.sk-car .sk-tile { display: block; border-radius: 16px; overflow: hidden; }
+.sk-car .sk-tile img { display: block; width: 100%; height: 100%; object-fit: cover; aspect-ratio: 1 / 1; }
+.sk-car .sk-tile.sk-tall { grid-row: span 2; }
+.sk-car .sk-tile.sk-tall img { aspect-ratio: auto; }
+.sk-car .sk-dots { display: flex; justify-content: center; gap: 6px; margin: 12px 0 0; }
+.sk-car .sk-dot { width: 8px; height: 8px; border-radius: 50%; background: #CFE3DA; }
+.sk-car .sk-dot:hover, .sk-car .sk-dot:focus { background: #1D794C; }
